@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MailSafe - Secure Your Deliveries</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005bb5;
+        }
+        img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        video {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/mnt/data/mailsafe_logo.jpeg" alt="MailSafe Logo"><br>
+        <h1>MailSafe – Smart Security for Your Deliveries</h1>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h2>Secure Your Packages with MailSafe</h2>
+            <p>Never worry about stolen or misplaced deliveries again! MailSafe is an advanced lockbox system designed to protect your packages and give you peace of mind.</p>
+            <button onclick="document.getElementById('preorder').scrollIntoView();">Pre-Order Now</button>
+        </div>
+
+        <div class="section">
+            <h2>How It Works</h2>
+            <p>MailSafe provides a **smart lockbox** that can be installed at your doorstep or mailbox. It integrates with our mobile app to offer:</p>
+            <ul style="text-align: left; display: inline-block;">
+                <li>🔐 Secure smart locking system</li>
+                <li>📲 Remote access via the MailSafe app</li>
+                <li>📦 Real-time delivery notifications</li>
+                <li>💨 Weather-resistant and tamper-proof design</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Why MailSafe?</h2>
+            <p>Based on research, **75% of people have experienced stolen or misplaced packages**.</p>
+            <ul style="text-align: left; display: inline-block;">
+                <li>✅ Ideal for frequent travelers, home business owners, and professionals</li>
+                <li>✅ Eliminates the need for Amazon Lockers and unreliable neighbors</li>
+                <li>✅ Smart security system with app integration</li>
+            </ul>
+        </div>
+
+        <div id="preorder" class="section">
+            <h2>Pre-Order Now</h2>
+            <p>Sign up to be the first to secure your MailSafe device!</p>
+            <form>
+                <input type="email" placeholder="Enter your email" required><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Watch Our Promo Video</h2>
+            <video controls>
+                <source src="mailsafe_fixed_hype_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="section">
+            <h2>Contact & Support</h2>
+            <p>Have questions? Reach out to us!</p>
+            <form>
+                <input type="text" placeholder="Your Name" required><br>
+                <input type="email" placeholder="Your Email" required><br>
+                <textarea placeholder="Your Message" style="width: 80%; max-width: 400px; height: 100px;"></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
